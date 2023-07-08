@@ -1,0 +1,65 @@
+
+.Header{
+    background-image: url(Img/banner.png);
+    max-width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+.Menu>ul{
+    display: flex;
+    list-style: none;
+}
+.Menu>ul>li{
+    margin: auto;
+}
+.Menu>ul>li>a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    
+}
+.Content>h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+.Content>.content1{
+    display: flex ;
+    margin-top: 5%;
+}
+.Content>.content1>.Write{
+    padding-left: 5%;
+}
+.Content>.content1>.Write>.Write1{
+    color: coral;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Content>.content2{
+    display: flex ;
+    margin-top: 5%;
+}
+.Content>.content2>.Write{
+    padding-left: 5%;
+}
+.Content>.content2>.Write>.Write1{
+    color: coral;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Content>.content3{
+    display: flex ;
+    margin-top: 5%;
+}
+.Content>.content3>.Write{
+    padding-left: 5%;
+}
+.Content>.content3>.Write>.Write1{
+    color: coral;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
