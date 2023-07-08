@@ -1,26 +1,58 @@
-
-.Header{
-    background-image: url(Img/banner.png);
-    max-width: 100%;
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.Home{
+    background-color: #64483f;
+    width: 100%;
     height: 200px;
-    object-fit: contain;
+}
+.Header{
+    color: #ffff;
+}
+.title{
+    padding-left: 630px;
+    padding-bottom: 40px;
+}
+.title>h1{
+    padding: 30px 0 15px 0;
+    font-size: 50px;
+    
+}
+.title>.cn{
+    font-size: 20px;
+    word-spacing: 5px;
+    /* khoảng cách các từ trong văn bản */
+}
+.Menu{
+    display:  flex;
+    justify-content: center;
+    /* căn giữa menu */
 }
 .Menu>ul{
-    display: flex;
+    display: flex; 
     list-style: none;
 }
 .Menu>ul>li{
-    margin: auto;
+    padding-left: 60px;
+    
 }
 .Menu>ul>li>a{
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
     
 }
+.Content{
+    padding: 0 300px;
+    flex: 1;
+    position: relative;
+}
 .Content>h2{
     text-align: center;
+    padding-top: 2%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: xx-large;
     font-weight: 400;
@@ -29,6 +61,10 @@
 .Content>.content1{
     display: flex ;
     margin-top: 5%;
+}
+.Content>.content1>.img-content1>img{
+    height: 424px;
+    width: 429px;
 }
 .Content>.content1>.Write{
     padding-left: 5%;
@@ -42,6 +78,10 @@
     display: flex ;
     margin-top: 5%;
 }
+.Content>.content2>.img-content2>img{
+    height: 424px;
+    width: 429px;
+}
 .Content>.content2>.Write{
     padding-left: 5%;
 }
@@ -54,6 +94,10 @@
     display: flex ;
     margin-top: 5%;
 }
+.Content>.content3>.img-content3>img{
+    height: 424px;
+    width: 429px;
+}
 .Content>.content3>.Write{
     padding-left: 5%;
 }
@@ -63,3 +107,48 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.Footer{
+    background-color:   #64483f;
+    height: 120px;
+    max-width: 100%;
+
+}
+.Text-Footer{
+    display: flex;
+}
+.Footer>h2{
+    color: #fff;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.Footer>.Text-Footer>.Text-Footer-1>.text-1{
+    padding: 10px 20px 10px 50px;
+    color: #fff;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.Footer>.Text-Footer>.Text-Footer-1>.text-2{
+    padding: 10px 20px 10px 50px;
+    color: #fff;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.Footer>.Text-Footer>.Text-Footer-2>.text-1{
+    padding: 10px 20px 10px 300px;
+    color: #fff;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.Footer>.Text-Footer>.Text-Footer-2>.text-2{
+    padding: 10px 20px 10px 300px;
+    color: #fff;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
